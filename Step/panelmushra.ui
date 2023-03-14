@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PanelMushra</class>
+ <widget class="QWidget" name="PanelMushra">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>762</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Mushra</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>756</width>
+     <height>537</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>25</width>
+     <height>0</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="label_TrialNum">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Trial 1 of 99: Signal_1</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gridGroupBox_Sliders">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>646</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="7">
+      <widget class="QPushButton" name="pushButton_H">
+       <property name="text">
+        <string>H</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="9">
+      <widget class="QPushButton" name="pushButton_J">
+       <property name="text">
+        <string>J</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_G">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="10" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_K">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QPushButton" name="pushButton_G">
+       <property name="text">
+        <string>G</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_G">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_H">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_E">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="11" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_L">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="10">
+      <widget class="QPushButton" name="pushButton_K">
+       <property name="text">
+        <string>K</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_B">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_A">
+       <property name="text">
+        <string>A</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QPushButton" name="pushButton_F">
+       <property name="text">
+        <string>F</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="pushButton_D">
+       <property name="text">
+        <string>D</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="pushButton_C">
+       <property name="text">
+        <string>C</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_F">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_A">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="11" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_L">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_C">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_E">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_I">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_F">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pushButton_B">
+       <property name="text">
+        <string>B</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="9" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_J">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_D">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="10" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_K">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="pushButton_E">
+       <property name="text">
+        <string>E</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="8" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_I">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_C">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_B">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="11">
+      <widget class="QPushButton" name="pushButton_L">
+       <property name="text">
+        <string>L</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_H">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="8">
+      <widget class="QPushButton" name="pushButton_I">
+       <property name="text">
+        <string>I</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3" alignment="Qt::AlignHCenter">
+      <widget class="QSlider" name="verticalSlider_D">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="9" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label_SliderValue_J">
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QSlider" name="verticalSlider_A">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="invertedControls">
+        <bool>false</bool>
+       </property>
+       <property name="tickPosition">
+        <enum>QSlider::NoTicks</enum>
+       </property>
+       <property name="tickInterval">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_REF">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>330</y>
+      <width>39</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>REF</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Status">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>521</y>
+      <width>441</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_1">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>391</y>
+      <width>451</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_PLN">
+     <item>
+      <widget class="QPushButton" name="pushButton_Play">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Play  </string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Loop">
+       <property name="text">
+        <string>Loop</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Next">
+       <property name="text">
+        <string>Next</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>431</y>
+      <width>451</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_PSS">
+     <item row="0" column="1">
+      <widget class="QProgressBar" name="progressBar_Position">
+       <property name="value">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2" alignment="Qt::AlignRight">
+      <widget class="QLabel" name="label_PositionTime">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_Start">
+       <property name="text">
+        <string>Start</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QScrollBar" name="horizontalScrollBar_Start">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2" alignment="Qt::AlignRight">
+      <widget class="QLabel" name="label_StartTime">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_Stop">
+       <property name="text">
+        <string>Stop</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QScrollBar" name="horizontalScrollBar_Stop">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="value">
+        <number>100</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2" alignment="Qt::AlignRight">
+      <widget class="QLabel" name="label_StopTime">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>100</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_Position">
+       <property name="text">
+        <string>Position</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>52</y>
+      <width>60</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_D01">
+       <property name="text">
+        <string>100</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D02">
+       <property name="text">
+        <string>Excellent</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D03">
+       <property name="text">
+        <string>80</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D04">
+       <property name="text">
+        <string>Good</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D05">
+       <property name="text">
+        <string>60</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D06">
+       <property name="text">
+        <string>Fair</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D07">
+       <property name="text">
+        <string>40</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D08">
+       <property name="text">
+        <string>Poor</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D09">
+       <property name="text">
+        <string>20</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D10">
+       <property name="text">
+        <string>Bad</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_D11">
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton_REF</tabstop>
+  <tabstop>pushButton_A</tabstop>
+  <tabstop>pushButton_B</tabstop>
+  <tabstop>pushButton_C</tabstop>
+  <tabstop>pushButton_D</tabstop>
+  <tabstop>pushButton_E</tabstop>
+  <tabstop>pushButton_F</tabstop>
+  <tabstop>pushButton_G</tabstop>
+  <tabstop>pushButton_H</tabstop>
+  <tabstop>pushButton_I</tabstop>
+  <tabstop>pushButton_J</tabstop>
+  <tabstop>pushButton_K</tabstop>
+  <tabstop>pushButton_L</tabstop>
+  <tabstop>pushButton_Play</tabstop>
+  <tabstop>pushButton_Loop</tabstop>
+  <tabstop>pushButton_Next</tabstop>
+  <tabstop>verticalSlider_I</tabstop>
+  <tabstop>verticalSlider_F</tabstop>
+  <tabstop>verticalSlider_C</tabstop>
+  <tabstop>verticalSlider_K</tabstop>
+  <tabstop>verticalSlider_D</tabstop>
+  <tabstop>verticalSlider_E</tabstop>
+  <tabstop>verticalSlider_G</tabstop>
+  <tabstop>verticalSlider_B</tabstop>
+  <tabstop>verticalSlider_A</tabstop>
+  <tabstop>verticalSlider_J</tabstop>
+  <tabstop>verticalSlider_H</tabstop>
+  <tabstop>verticalSlider_L</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>horizontalScrollBar_Start</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalScrollBar_Start</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>486</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>486</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

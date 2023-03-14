@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PanelAdmin</class>
+ <widget class="QWidget" name="PanelAdmin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>694</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Administrator Panel</string>
+  </property>
+  <widget class="QLabel" name="label_sessionInfo">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Session Options</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_TestMethodology">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>241</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Methodology</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_LisID">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>120</y>
+     <width>120</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_lis">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>65</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Listener ID</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lab_id">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>82</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Laboratory ID</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_LabID">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>88</y>
+     <width>120</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>50</y>
+     <width>119</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_Browse">
+    <property name="text">
+     <string>Browse</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Start">
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Quit">
+    <property name="text">
+     <string>Quit</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_sf">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>51</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Session File</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_SessionFile">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>51</y>
+     <width>381</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_SessionInfo">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>311</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton_Browse</tabstop>
+  <tabstop>lineEdit_LabID</tabstop>
+  <tabstop>lineEdit_LisID</tabstop>
+  <tabstop>pushButton_Start</tabstop>
+  <tabstop>pushButton_Quit</tabstop>
+  <tabstop>lineEdit_SessionFile</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
